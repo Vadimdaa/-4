@@ -3,47 +3,47 @@
 	padding: 0;
 }
 body{
-background-color: black;
+	background-color: black;
+	font-family: sans-serif;
 }
 .shapka{
-margin-top: 0px;
-margin-left: 125px;    
+	margin-top: 0px;
+	margin-left: 125px;    
 }
 .facebook {
-background-image: url(facebook.png); 
-filter: invert(100%); 
-padding-top: 25px;
+	background-image: url(facebook.png); 
+	filter: invert(100%); 
+	padding-top: 25px;
 }
 .facebook:hover{
-background-color: #ff00ff;	
+	background-color: #ff00ff;	
 }
 .instagram {
-background-image: url(instagram.png);  
-padding-top: 22px;
-filter: invert(100%); 
-margin-left: 15px;
+	background-image: url(instagram.png);  
+	padding-top: 22px;
+	filter: invert(100%); 
+	margin-left: 15px;
 	}
 .instagram:hover{
-background-color: #ff00ff;	
+	background-color: #ff00ff;	
 }
 .twitter {
-background-image: url(twitter.png);  
-padding-top: 25px;
-filter: invert(100%); 
-margin-left: 15px; 
+	background-image: url(twitter.png);  
+	padding-top: 25px;
+	filter: invert(100%); 
+	margin-left: 15px; 
 }
 .twitter:hover{
-background-color: #ff00ff;	
+	background-color: #ff00ff;	
 }
 .linkedin{
-background-image: url(linkedin.png);
-padding-top: 15px;
-
-margin-left: 15px;
-filter: invert(100%);
+	background-image: url(linkedin.png);
+	padding-top: 15px;
+	margin-left: 15px;
+	filter: invert(100%);
 }
 .linkedin:hover{
-background-color: #ff00ff;	
+	background-color: #ff00ff;	
 }
 .log{
 	margin-left: 600px;
@@ -55,5 +55,34 @@ background-color: #ff00ff;
 .contact{
 	display: block;
 	margin-top: -75px;
-	margin-left: 80%;
+	margin-left: 75%;
+	position: relative;
+}
+.textt{
+	margin-left: 170px;
+	position: relative;
+}
+.text1{
+	color: white;
+	margin-top: 170px;
+	font: Arial, Helvetica;
+	font-size: 55px;
+}
+.text2{
+	color: white;
+	margin-top: 20px;
+	font: Arial, Helvetica;
+	font-size: 30px;
+}
+.girl{
+	margin-top: -53%;
+	margin-left: -250px;
+	z-index: 2;
+}
+.kraski{
+	position: absolute;
+	width: 220%;
+	margin-top: -310%;
+	margin-left: -1100px;
+	z-index: -1;
 }
