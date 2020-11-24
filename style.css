@@ -205,3 +205,45 @@ body{
 	margin-left: -335px;
 	z-index: -2;
 }
+.shoe{
+	width: 80%;
+	margin-top: -203%;
+}
+.tex7{
+	color: white;
+	font: Arial, Helvetica;
+	margin-top: -97%;
+	margin-left: 480px;
+	position: relative;
+}
+.tex8{
+	color: lime;
+	font: Arial, Helvetica;
+	margin-top: -37px;
+	margin-left: 655px;
+	position: relative;
+}
+.tex9{
+	color: white;
+	font: Arial, Helvetica;
+	float: left;
+	margin: -10px 7px 7px 500px;
+	width: 300px;
+	position: relative;
+}
+.info{
+	position: relative;
+	margin-top: 60px;
+	margin-left: 600px;
+	display: block;
+}
+.piatno{
+	width: 99%;
+	margin-top: -55%;
+	margin-left: 50%;
+}
+.piatno2{
+	width: 99%;
+	margin-top: -42%;
+	margin-left: -50%;
+}
