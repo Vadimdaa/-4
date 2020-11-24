@@ -86,3 +86,33 @@ body{
 	margin-left: -1100px;
 	z-index: -1;
 }
+.guit{
+	margin-top: -310%;
+	margin-left: -6%;
+}
+.te{
+	width: 500px;
+	margin-left: 60%;
+	margin-top: -239%;
+}
+.tx{
+	color: white;
+	font: Arial, Helvetica;
+	font-size: 50px;
+}
+.tx1{
+	color: lime;
+	font: Arial, Helvetica;
+	font-size: 30px;
+}
+.tx2{
+	color: white;
+	font: Arial, Helvetica;
+}
+.line{
+	position: absolute;
+	z-index: -1;
+	width: 140%;
+	margin-left: -100px;
+	margin-top: -45%;
+}
