@@ -99,15 +99,18 @@ body{
 	color: white;
 	font: Arial, Helvetica;
 	font-size: 50px;
+	position: relative;
 }
 .tx1{
 	color: lime;
 	font: Arial, Helvetica;
 	font-size: 30px;
+	position: relative;
 }
 .tx2{
 	color: white;
 	font: Arial, Helvetica;
+	position: relative;
 }
 .line{
 	position: absolute;
@@ -115,4 +118,90 @@ body{
 	width: 140%;
 	margin-left: -100px;
 	margin-top: -45%;
+}
+.miach{
+	margin-top: -62%;
+	margin-left: -7%;
+	width: 85%;
+}
+.tex{
+	color: white;
+	font: Arial, Helvetica;
+	margin-top: -119%;
+	margin-left: 10%;
+	position: relative;
+}
+.tex1{
+	color: lime;
+	font: Arial, Helvetica;
+	margin-left: 10%;
+	margin-top: 3px;
+	position: relative;
+}
+.bottle{
+	margin-top: -130%;
+	width: 95%;
+}
+.tex2{
+	color: white;
+	font: Arial, Helvetica;
+	margin-top: -142%;
+	margin-left: 35%;
+	position: relative;
+}
+.tex3{
+	color: lime;
+	font: Arial, Helvetica;
+	margin-left: 35%;
+	margin-top: 3px;
+	position: relative;
+}
+.tex4{
+	color: white; 
+	font: Arial, Helvetica;
+	width: 370px;
+	margin-left: 35%;
+	margin-top: 8px;
+	position: relative;
+}
+.mia{
+	position: relative;
+}
+.but{
+	position: relative;
+}
+.coffee{
+	width: 13%;
+	display: block;
+	margin-top: -42%;
+	margin-left: 55%;
+}
+.tex5{
+	color: white;
+	font: Arial, Helvetica;
+	margin-left: 58%;
+	position: relative;
+}
+.tex6{
+	color: lime;
+	font: Arial, Helvetica;
+	margin-left: 58%;
+	margin-top: 5px;
+	position: relative;
+}
+.co{
+	position: relative;
+}
+.knopki{
+	width: 3%;
+	display: block;
+	margin-left: 80%;
+	margin-top: -310px;
+	position: relative;
+}
+.kras{
+	width: 80%;
+	margin-top: -70%;
+	margin-left: -335px;
+	z-index: -2;
 }
