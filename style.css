@@ -247,3 +247,121 @@ body{
 	margin-top: -42%;
 	margin-left: -50%;
 }
+.form{
+	margin-top: 500px;
+	position: relative;
+	width: 45%;
+	margin: auto;
+	border: none;
+}
+form div {
+	clear: left;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.6em;
+}
+.formtext{
+	color: white;
+	font: 2.2em Arial, Helvetica;
+	margin-left: 300px;
+	position: relative;
+	margin-top: 170px;
+}
+.formtext2{
+	color: lime;
+}
+form div label {
+	float: left;
+	width: 47%;
+	color: white;
+	font: 0.7em Arial, Helvetica;
+	border-bottom: 2px solid green;
+	letter-spacing: 6px;
+	padding-bottom: 8px;
+}
+.fullname{
+	width: 46%;
+	margin-left: 6.5%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid green;
+	padding-bottom: 10px;	
+	letter-spacing: 4px;
+	padding-bottom: 8px;	
+	color: white;
+	font: 1.1em Arial, Helvetica;
+}
+.celular{
+	width: 47%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid green;
+	padding-bottom: 5px;	
+	letter-spacing: 4px;
+	padding-bottom: 8px;	
+	color: white;
+	font: 1.1em Arial, Helvetica;
+
+}
+.select{
+	background-color: transparent;
+	width: 46%;
+	color: rgb(126, 125, 125);
+	border: none;
+	border-bottom: 2px solid green;
+	margin-left: 6%;
+	font: 1.1em Arial, Helvetica, sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 8px;
+}
+.select2{
+	background-color: transparent;
+	width: 47%;
+	color:  rgb(126, 125, 125);
+	border: none;
+	border-bottom: 2px solid green;
+	font: 1.1em Arial, Helvetica, sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 8px;	
+}
+.fullname2{
+	width: 46%;
+	margin-left: 6%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid green;
+	padding-bottom: 5px;	
+	letter-spacing: 4px;
+	padding-bottom: 8px;	
+	color: white;
+	font: 1.1em Arial, Helvetica, sans-serif;
+	}
+.comment{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid green;
+	padding-bottom: 5px;	
+	letter-spacing: 4px;
+	padding-bottom: 8px;	
+	color: white;
+	font: 1.1em Arial, Helvetica, sans-serif;
+}
+.accept{
+	color: gray;
+	text-align: center;
+	border-color: green;
+}
+.accept1{
+	text-decoration: underline;
+}
+.knop{
+	margin-left: 300px;
+}
+.formm{
+	margin-top: -47%;
+}
+.kr{
+	margin-top: -240%;
+	margin-left: -6%;
+}
