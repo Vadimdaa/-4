@@ -365,3 +365,121 @@ form div label {
 	margin-top: -240%;
 	margin-left: -6%;
 }
+.hrr{
+	margin-top: -70%;
+	position: relative;
+	height: 0.5px;
+	background: radial-gradient(lime, black);
+	border: 0;
+	opacity: 0.4;
+	width: 85%;
+	margin-left: 7%;
+}
+.sub{
+	margin-left: 38%;
+	margin-top: 60px;
+}
+.sig{
+	color: lime;
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 460px;
+	font: Arial, Helvetica;
+}
+.tc{
+	margin-left: 170px;
+}
+.niz{
+	margin-top: 15px;
+}
+.face{
+	filter: invert(100%); 
+	margin-left: 162px;
+}
+.inst{
+	filter: invert(100%); 
+	margin-left: 15px;
+}
+.twit{
+	filter: invert(100%); 
+	margin-left: 15px;
+}
+.link{
+	filter: invert(100%); 
+	margin-left: 15px;
+}
+.face:hover{
+	filter: invert(0%); 
+	background-color: lime;
+}
+.inst:hover{
+	filter: invert(0%); 
+	background-color: lime;
+}
+.twit:hover{
+	filter: invert(0%); 
+	background-color: lime;
+}
+.link:hover{
+	filter: invert(0%); 
+	background-color: lime;
+}
+.loko{
+	color: white;
+	display: inline-block;
+}
+.tt{
+	margin-left: 406px;
+}
+.ttt{
+	margin-left: 330px;
+}
+.goog{
+	color: white;
+	margin-left: 4px;
+}
+.waz{
+	margin-left: 6px;
+	color: white;
+}
+.hr1{
+	margin-top: 80px;
+	position: relative;
+	height: 1.5px;
+	background: radial-gradient(lime, black);
+	border: 0;
+	opacity: 0.4;
+	width: 85%;
+	margin-left: 7%;
+}
+.en{
+	display: inline-block;
+}
+.end{
+	margin-top: 20px;
+	color: gray
+}
+.e1{
+	color: gray;
+	margin-left: 160px;
+}
+.e2{
+	margin-left: 360px;
+}
+.e3{
+	margin-left: 300px;
+}
+.pi1{
+	margin-left: -550px;
+	margin-top: -290%;
+}
+.pi2{
+	margin-left: -200px;
+	margin-top: -310%;
+}
+.pi3{
+	width: 30%;
+	margin-left: 75%;
+	margin-top: -95%;
+	display: block;
+}
