@@ -2,9 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
-body{
+body{	
 	background-color: black;
 	font-family: sans-serif;
+}
+.sait{
+	height: 500px;
 }
 .shapka{
 	margin-top: 0px;
@@ -14,6 +17,7 @@ body{
 	background-image: url(facebook.png); 
 	filter: invert(100%); 
 	padding-top: 25px;
+	position: relative;
 }
 .facebook:hover{
 	background-color: #ff00ff;	
@@ -49,18 +53,23 @@ body{
 	margin-left: 600px;
 }
 .lo{
-	margin-top: -45px;
+	position: relative;
 	display: block;
+	bottom: 50px;
+}
+img{
+	position: absolute;
 }
 .contact{
 	display: block;
-	margin-top: -75px;
 	margin-left: 75%;
 	position: relative;
+	bottom: 125px;
 }
 .textt{
 	margin-left: 170px;
 	position: relative;
+	bottom: 155px;
 }
 .text1{
 	color: white;
@@ -75,25 +84,36 @@ body{
 	font-size: 30px;
 }
 .girl{
-	margin-top: -53%;
-	margin-left: -250px;
-	z-index: 2;
+	position: relative;
+	bottom:640px;
+	left: 550px;
+	z-index: -1;
+	width: 80%;
 }
 .kraski{
 	position: absolute;
-	width: 220%;
-	margin-top: -310%;
-	margin-left: -1100px;
-	z-index: -1;
+	bottom: 1450px;
+	right: 960px;
+	position: relative;
+	z-index: -2;
+	width: 4000px;
+}
+.cont{
+	width: 100%;
+	height: 1000px;
 }
 .guit{
-	margin-top: -310%;
-	margin-left: -6%;
+	position: relative;
+	width: 80%;
+	right: 200px;
+	bottom: 1600px;
+	display: inline;
 }
 .te{
 	width: 500px;
+	position: relative;
 	margin-left: 60%;
-	margin-top: -239%;
+	bottom: 2250px;
 }
 .tx{
 	color: white;
@@ -113,21 +133,20 @@ body{
 	position: relative;
 }
 .line{
-	position: absolute;
+	position: relative;
 	z-index: -1;
-	width: 140%;
-	margin-left: -100px;
-	margin-top: -45%;
+	width: 120%;
+	bottom: 2970px;
+	right: 100px;
 }
 .miach{
-	margin-top: -62%;
-	margin-left: -7%;
+	position: absolute;
 	width: 85%;
 }
 .tex{
 	color: white;
 	font: Arial, Helvetica;
-	margin-top: -119%;
+	position: relative;
 	margin-left: 10%;
 	position: relative;
 }
@@ -139,13 +158,13 @@ body{
 	position: relative;
 }
 .bottle{
-	margin-top: -130%;
+	position: relative;
 	width: 95%;
 }
 .tex2{
 	color: white;
 	font: Arial, Helvetica;
-	margin-top: -142%;
+	position: relative;
 	margin-left: 35%;
 	position: relative;
 }
@@ -173,7 +192,7 @@ body{
 .coffee{
 	width: 13%;
 	display: block;
-	margin-top: -42%;
+	position: relative;
 	margin-left: 55%;
 }
 .tex5{
@@ -196,30 +215,26 @@ body{
 	width: 3%;
 	display: block;
 	margin-left: 80%;
-	margin-top: -310px;
 	position: relative;
 }
 .kras{
 	width: 80%;
-	margin-top: -70%;
-	margin-left: -335px;
+	position: relative;
 	z-index: -2;
 }
 .shoe{
 	width: 80%;
-	margin-top: -203%;
+	position: relative;
 }
 .tex7{
 	color: white;
 	font: Arial, Helvetica;
-	margin-top: -97%;
-	margin-left: 480px;
 	position: relative;
+	margin-left: 480px;
 }
 .tex8{
 	color: lime;
 	font: Arial, Helvetica;
-	margin-top: -37px;
 	margin-left: 655px;
 	position: relative;
 }
@@ -239,13 +254,12 @@ body{
 }
 .piatno{
 	width: 99%;
-	margin-top: -55%;
+	position: relative;
 	margin-left: 50%;
 }
 .piatno2{
 	width: 99%;
-	margin-top: -42%;
-	margin-left: -50%;
+	position: relative;
 }
 .form{
 	margin-top: 500px;
@@ -359,14 +373,13 @@ form div label {
 	margin-left: 300px;
 }
 .formm{
-	margin-top: -47%;
+	position: relative;
 }
 .kr{
-	margin-top: -240%;
-	margin-left: -6%;
+	position: relative;
 }
 .hrr{
-	margin-top: -70%;
+	position: relative;
 	position: relative;
 	height: 0.5px;
 	background: radial-gradient(lime, black);
@@ -470,16 +483,14 @@ form div label {
 	margin-left: 300px;
 }
 .pi1{
-	margin-left: -550px;
-	margin-top: -290%;
+	position: relative;
 }
 .pi2{
-	margin-left: -200px;
-	margin-top: -310%;
+	position: relative;
 }
 .pi3{
+	position: relative;
 	width: 30%;
 	margin-left: 75%;
-	margin-top: -95%;
 	display: block;
 }
