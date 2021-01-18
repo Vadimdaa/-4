@@ -2,12 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+.main{
+	width: 100%;
+	height: 5000px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
 body{	
 	background-color: black;
 	font-family: sans-serif;
-}
-.sait{
-	height: 500px;
+	overflow-x: hidden;
 }
 .shapka{
 	margin-top: 0px;
@@ -27,6 +31,7 @@ body{
 	padding-top: 22px;
 	filter: invert(100%); 
 	margin-left: 15px;
+	position: relative;
 	}
 .instagram:hover{
 	background-color: #ff00ff;	
@@ -36,6 +41,7 @@ body{
 	padding-top: 25px;
 	filter: invert(100%); 
 	margin-left: 15px; 
+	position: relative;
 }
 .twitter:hover{
 	background-color: #ff00ff;	
@@ -45,6 +51,7 @@ body{
 	padding-top: 15px;
 	margin-left: 15px;
 	filter: invert(100%);
+	position: relative;
 }
 .linkedin:hover{
 	background-color: #ff00ff;	
@@ -61,15 +68,14 @@ img{
 	position: absolute;
 }
 .contact{
-	display: block;
 	margin-left: 75%;
 	position: relative;
-	bottom: 125px;
+	bottom: 45px;
 }
 .textt{
 	margin-left: 170px;
 	position: relative;
-	bottom: 155px;
+	bottom: 15px;
 }
 .text1{
 	color: white;
@@ -85,16 +91,15 @@ img{
 }
 .girl{
 	position: relative;
-	bottom:640px;
+	bottom: 440px;
 	left: 550px;
 	z-index: -1;
 	width: 80%;
 }
 .kraski{
 	position: absolute;
-	bottom: 1450px;
-	right: 960px;
-	position: relative;
+	top: 100px;
+	right: -1100px;
 	z-index: -2;
 	width: 4000px;
 }
@@ -105,15 +110,14 @@ img{
 .guit{
 	position: relative;
 	width: 80%;
-	right: 200px;
-	bottom: 1600px;
-	display: inline;
+	right: 150px;
+	bottom: 300px;
 }
 .te{
 	width: 500px;
 	position: relative;
 	margin-left: 60%;
-	bottom: 2250px;
+	bottom: 950px;
 }
 .tx{
 	color: white;
@@ -133,109 +137,129 @@ img{
 	position: relative;
 }
 .line{
-	position: relative;
+	position: absolute;
 	z-index: -1;
-	width: 120%;
-	bottom: 2970px;
-	right: 100px;
+	width: 140%;
+	top: 920px;
+	left: -150px;
 }
 .miach{
-	position: absolute;
+	position: relative;
 	width: 85%;
+	right: 400px;
+	bottom: 600px;
 }
 .tex{
 	color: white;
 	font: Arial, Helvetica;
 	position: relative;
-	margin-left: 10%;
-	position: relative;
+	margin-left: 15%;
+	bottom: 810px;
+
 }
 .tex1{
 	color: lime;
 	font: Arial, Helvetica;
-	margin-left: 10%;
-	margin-top: 3px;
+	margin-left: 15%;
+	bottom: 800px;
 	position: relative;
 }
 .bottle{
 	position: relative;
+	bottom: 1600px;
+	left: 100px;
 	width: 95%;
+	z-index: -1;
 }
 .tex2{
 	color: white;
 	font: Arial, Helvetica;
 	position: relative;
-	margin-left: 35%;
-	position: relative;
+	margin-left: 41%;
+	bottom: 1780px;
 }
 .tex3{
 	color: lime;
 	font: Arial, Helvetica;
-	margin-left: 35%;
-	margin-top: 3px;
+	margin-left: 41%;
+	bottom: 1780px;
 	position: relative;
 }
 .tex4{
 	color: white; 
 	font: Arial, Helvetica;
 	width: 370px;
-	margin-left: 35%;
-	margin-top: 8px;
+	margin-left: 41%;
+	bottom: 1780px;
 	position: relative;
 }
 .mia{
 	position: relative;
+	bottom: 800px;
+	left: 270px;
 }
 .but{
 	position: relative;
+	bottom: 1790px;
+	left: 770px;
 }
 .coffee{
-	width: 13%;
-	display: block;
+	width: 16%;
+	bottom: 2600px;
 	position: relative;
-	margin-left: 55%;
+	left: 1290px;
+
 }
 .tex5{
 	color: white;
 	font: Arial, Helvetica;
-	margin-left: 58%;
+	left: 1320px;
+	bottom: 2580px;
 	position: relative;
 }
 .tex6{
 	color: lime;
 	font: Arial, Helvetica;
-	margin-left: 58%;
-	margin-top: 5px;
+	left: 1320px;
+	bottom: 2580px;
 	position: relative;
 }
 .co{
 	position: relative;
+	left: 1310px;
+	bottom: 2580px;
 }
 .knopki{
 	width: 3%;
-	display: block;
-	margin-left: 80%;
+	left: 1720px;
+	bottom: 3580px;
 	position: relative;
 }
 .kras{
 	width: 80%;
 	position: relative;
-	z-index: -2;
+	z-index: 100;
+	bottom: 2800px;
+	right: 900px;
 }
 .shoe{
-	width: 80%;
+	width: 45%;
 	position: relative;
+	bottom: 3000px;
+	right: 100px;
 }
 .tex7{
 	color: white;
 	font: Arial, Helvetica;
 	position: relative;
-	margin-left: 480px;
+	bottom: 3550px;
+	left: 600px;
 }
 .tex8{
 	color: lime;
 	font: Arial, Helvetica;
-	margin-left: 655px;
+	bottom: 3588px;
+	left: 778px;
 	position: relative;
 }
 .tex9{
@@ -245,24 +269,28 @@ img{
 	margin: -10px 7px 7px 500px;
 	width: 300px;
 	position: relative;
+	bottom: 3580px;
+	left: 100px;
 }
 .info{
 	position: relative;
-	margin-top: 60px;
-	margin-left: 600px;
-	display: block;
+	bottom: 3500px;
+	right: 50px;
 }
 .piatno{
 	width: 99%;
 	position: relative;
 	margin-left: 50%;
+	bottom: 4800px;
 }
 .piatno2{
 	width: 99%;
 	position: relative;
+	bottom: 5100px;
+	right: 870px;
 }
 .form{
-	margin-top: 500px;
+	bottom: 6100px;
 	position: relative;
 	width: 45%;
 	margin: auto;
@@ -377,9 +405,10 @@ form div label {
 }
 .kr{
 	position: relative;
+	bottom: 6800px;
+	left: 1200px;
 }
 .hrr{
-	position: relative;
 	position: relative;
 	height: 0.5px;
 	background: radial-gradient(lime, black);
@@ -387,10 +416,13 @@ form div label {
 	opacity: 0.4;
 	width: 85%;
 	margin-left: 7%;
+	bottom: 7900px;
 }
 .sub{
 	margin-left: 38%;
 	margin-top: 60px;
+	bottom: 7900px;
+	position: relative;
 }
 .sig{
 	color: lime;
@@ -398,9 +430,13 @@ form div label {
 	margin-top: 80px;
 	margin-left: 460px;
 	font: Arial, Helvetica;
+	position: relative;
+	bottom: 7900px;
 }
 .tc{
 	margin-left: 170px;
+	position: relative;
+	bottom: 7900px;
 }
 .niz{
 	margin-top: 15px;
@@ -408,18 +444,22 @@ form div label {
 .face{
 	filter: invert(100%); 
 	margin-left: 162px;
+	position: relative;
 }
 .inst{
 	filter: invert(100%); 
 	margin-left: 15px;
+	position: relative;
 }
 .twit{
 	filter: invert(100%); 
 	margin-left: 15px;
+	position: relative;
 }
 .link{
 	filter: invert(100%); 
 	margin-left: 15px;
+	position: relative;
 }
 .face:hover{
 	filter: invert(0%); 
@@ -440,20 +480,34 @@ form div label {
 .loko{
 	color: white;
 	display: inline-block;
+	position: relative;
+	bottom: 7900px;
 }
 .tt{
 	margin-left: 406px;
+	position: relative;
 }
 .ttt{
 	margin-left: 330px;
+	position: relative;
+}
+.wa{
+	position: relative;
+	left: 35px;
+}
+.go{
+	margin-right: 30px;
 }
 .goog{
 	color: white;
-	margin-left: 4px;
+	left: 30px;
+	position: relative;
 }
 .waz{
 	margin-left: 6px;
 	color: white;
+	position: relative;
+	left: 37px;
 }
 .hr1{
 	margin-top: 80px;
@@ -464,33 +518,48 @@ form div label {
 	opacity: 0.4;
 	width: 85%;
 	margin-left: 7%;
+	position: relative;
+	bottom: 7900px;
 }
 .en{
 	display: inline-block;
+	position: relative;
+	bottom: 7900px;
 }
 .end{
 	margin-top: 20px;
-	color: gray
+	color: gray;
+	position: relative;
 }
 .e1{
 	color: gray;
 	margin-left: 160px;
+	position: relative;
+	z-index: 3;
 }
 .e2{
 	margin-left: 360px;
+	position: relative;
 }
 .e3{
 	margin-left: 300px;
+	position: relative;
 }
 .pi1{
 	position: relative;
+	bottom: 8540px;
+	right: 720px;
+	z-index: -2;
 }
 .pi2{
 	position: relative;
+	bottom: 9450px;
+	left: 1420px;
+	z-index: -2;
 }
 .pi3{
 	position: relative;
 	width: 30%;
 	margin-left: 75%;
-	display: block;
+	bottom: 7800px;
 }
